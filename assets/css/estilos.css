@@ -1,0 +1,184 @@
+*{
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body{
+    font-family: sans-serif;
+}
+
+/*---------------------------------------ESTILOS DEL MENU DE NAVEGACION----------------------------------*/
+.menu{
+    list-style: none;
+    padding: 0;
+    margin: 0;  
+}
+.menu-link{
+    cursor: pointer; 
+    display: block;
+    padding: 12px;
+    background: #fff;
+    color: skyblue ;
+    height: 60px;
+    font-weight: bold;
+    font-size: 20px;
+}
+.menu-link:hover{
+    background: skyblue  ;
+    color: #fff;
+}
+
+/*Estilos de separacion*/
+.separacion{
+	padding-bottom: 40px;
+	padding-top: 5px;
+}
+
+/*------------------------------------------------PAGINA INDEX--------------------------------------------*/
+/*--------------------------------ESTILOS DE LAS CARDS (PROGRAMAS ESPECIALES)---------------------------- */
+.programa_especial{
+  display: flex;
+  padding: 25px 100px 70px;
+}
+
+.cards_article{
+  padding: 0 2%;
+}
+
+.cards_especiales{
+  width: 21rem
+}
+
+.cards-title{
+  text-align: center;
+  width: 100%;
+  color: #fff;
+  background-color: #3383ff;
+}
+
+.cards-center{
+  text-align: center;
+}
+
+
+/*------------------------------------------ESTILOS DE LOS DESTINOS-------------------------------------- */
+/*Estilos de Destinos*/
+.ofertas__titulo{
+    padding: 25px;
+    text-align: center;
+    font-size: 30px; 
+}
+.ofertas__img{
+   width: 100%;
+   filter: brightness(60%);
+}	
+.ofertas__columna{
+   position: relative;
+   width: 30%;
+}
+.ofertas__columna h4{
+   position: absolute;
+   top: 50%;
+   left: 50%;
+   transform: translateX(-50%)translateY(-50%);
+   color:#fff;
+   font-size: 30px;
+}
+ .ofertas__columna:hover  .ofertas__img{
+  filter: brightness(100%);
+}
+.ofertas .contenedor{
+   display: flex;
+   flex-wrap: wrap;
+   justify-content: center;
+   padding-bottom: 75px;
+}
+
+
+
+/*----------------------------------------PAGINA QUIENES SOMOS--------------------------------------------*/
+/*---------------------------------------ESTILOS DE LA MISION Y VISION-------------------------------------*/
+.section-mv{
+    text-align: center;
+    padding-top:20px;
+    padding-bottom: 73px;
+
+}
+
+.div-mv{
+    padding: 20px 0;
+}
+
+.titulo-mv{
+    font-size: 20px;
+    font-weight: bold;
+}
+
+.descripcion-mv{
+    padding:0 125px;
+}
+
+
+/*----------------------------------------PAGINA CONSULTA DE VIAJES----------------------------------------*/
+/*------------------------------------ESTILOS DE CONSULTA DE VIAJES----------------------------------------*/
+/*Estilos de Formulario*/
+.adjuste-form{
+    padding: 35px 75px 102px;
+}
+.titulo-form{
+    font-size: 20px;
+    font-weight: bold;
+}
+
+
+
+/*----------------------------------------PAGINA DE CONTACTO------------------------------------------------*/
+/*--------------------------------------------ESTILOS DE CONTACTO------------------------------------------*/
+.columnas-contacto{
+  padding: 25px 110px;
+}
+
+.filas-contacto{
+  display: flex;
+}
+
+.titulo-contacto{
+    font-size: 20px;
+    font-weight: bold;
+}
+
+
+
+/*Estilos del mapa*/
+.mapa-contacto{
+  padding-bottom: 75px;
+}
+
+
+
+ /*-------------------------------------ESTILOS DEL FOOTER-------------------------------------------------*/
+.footer {
+  position: fixed;
+  width: 100%;
+  bottom: 0;
+  background-color: black;
+}
+
+
+/*Estilos Redes Sociales*/
+.redes-sociales{
+  text-align: right;
+  padding-right: 25px;
+  /*padding-top: 10px;*/
+  
+
+}
+
+.footer_texto{
+    text-align: center;
+    color: white;
+    display: flex;
+    padding-left: 20px;
+
+}
+
